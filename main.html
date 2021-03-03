@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Surov</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div id="logo" onclick="slowScroll('#top')">
+            <span>Andrew Surov</span>
+        </div>
+        <div id="about">
+            <a href="#" title="about" onclick="slowScroll('#about_text')">about</a>
+            <a href="#" title="contacts" onclick="slowScroll('#contacts')">contacts</a>
+        </div>
+    </header>
+
+    <div id="top">
+        <h1>Хорошо</h1>
+        <h3>- и в срок!</h3>
+    </div>
+    
+    <div id="about_text">
+        <h2>О себе -</h2><br>
+        <h4><b>python</b>-разработчик, но так-же имею начальные навыки <b>верстки сайтов</b>. Пунктуален, выполняю работу четко в обговоренные сроки (по крайней мере - стараюсь), общителен.</h4><br>
+        <h4>Проекты, в разработке которых я принимал участие:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- боты для социальных сетей, и не только (vk, telegram, discord);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- разработка различных прикладных программ;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- парсинг данных с сайтов;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- создание несложных приложений с графическим интерфейсом (для ПК под управлением windows и linux);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- cli.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- разработка простых сайтов на веб-фреймворке Django;<br><br>
+Технологии с которыми я взаимодействовал:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- различные библиотеки для работы с telegram (aiogram, pyTelegramBotAPI);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- СУБД sqlite3;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- графические библиотеки(tkinter, PyQt5);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- библиотека beautifulsoup4, используемая для парсинга данных из html-кода (используется в связке с requests);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- веб-фреймворк Django (владею лишь начальными концепциями);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- набор различных библиотек, служащий для выполнения различных операций с файлами(пример - архивация);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- библиотеки для имитации деятельности человека за ПК(PyAutoGUI);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- vk-api<br></h4>
+    </div>
+
+    <div id="main">
+        <div class="intro">
+            <h2>Воплощу ваши мысли - </h2>
+            <span>в реальность!</span>
+        </div>
+        <div class="text">
+            <span>Свяжитесь со мной!</span>
+        </div>
+    </div>
+
+    <div id="contacts">
+        <center><h5>контакты:</h5></center><br>
+        <h2>
+            telegram: <a href="https://t.me/andrew_surov" target="_blank" class="Con">https://t.me/andrew_surov</a><br>
+            gmail: <a href="mailto:always.surovandrew@gmail.com" class="Con">always.surovandrew@gmail.com</a><br>
+        </h2>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function slowScroll(id) {
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            }, 450);
+        }
+
+        $(document).on("scroll", function () {
+            if($(window).scrollTop() === 0)
+                $("header").removeClass("fixed");
+            else
+                $("header").attr("class", "fixed");
+            });
+    </script>
+</body>
+</html>
