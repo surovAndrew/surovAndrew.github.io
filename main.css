@@ -227,20 +227,17 @@ header.fixed #logo {color: #343434}
 #contacts h2 {margin-left: 80px;}
 
 @media (max-width: 700px) {
-    #contacts {
-        margin-right: 0!important;
-        margin-left: 10%!important;
-    }
     #header {
         font-size: 20px;
         width: 98%!important;
         height: 5%!important;
     }
-    #header a {
+    #about {
         width: 100%;
         float: left;
     }
     #contacts {
+        margin-right: 0!important;
         float: left;
         width: 100%;
     }
