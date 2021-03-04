@@ -243,7 +243,7 @@ header.fixed #logo {color: #343434}
         width: 100%;
     }
     #contacts h2 {
-        margin-left: 0!important;
+        margin-left: 10px!important;
     }
     #contacts center h5 {
         font-size: 1em!important;
