@@ -81,7 +81,6 @@ header #logo span{
     #about {
         float: left;
         width: 100%;
-        margin-left: 0!important;
     }
 }
 
@@ -248,5 +247,8 @@ header.fixed #logo {color: #343434}
     }
     #contacts center h5 {
         font-size: 1em!important;
+    }
+    #about a:not(:last-child){
+        margin-left: 0!important;
     }
 }
