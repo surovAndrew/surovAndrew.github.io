@@ -241,4 +241,7 @@ header.fixed #logo {color: #343434}
         float: left;
         width: 100%;
     }
+    #contacts h2 {
+        margin-left: 0!important;
+    }
 }
