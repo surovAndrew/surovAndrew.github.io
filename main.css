@@ -105,7 +105,10 @@ header #logo span{
 
 header.fixed #logo {color: #343434}
 
-.fixed #about a {color: #343434}
+.fixed #about a {
+    color: #343434;
+}
+
 .fixed #about a:hover {color: #7c7c7c}
 
 #top {
@@ -229,13 +232,8 @@ header.fixed #logo {color: #343434}
 
 @media (max-width: 700px) {
     #header {
-        height: 15%!important;
+        height: 30%!important;
         font-size: 20px!important;
-        width: 98%!important;
-    }
-    #about {
-        width: 100%;
-        float: left;
     }
     #contacts {
         margin-right: 0!important;
@@ -248,7 +246,13 @@ header.fixed #logo {color: #343434}
     #contacts center h5 {
         font-size: 1em!important;
     }
+    #about a {
+        margin-top: 0!important;
+        padding-top: 0!important;
+        float: left!important;
+    }
     #about a:not(:last-child){
-        margin-left: 0!important;
+        margin-left: 50px!important;
+        margin-right: 0!important;
     }
 }
