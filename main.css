@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    outline: none;
     font-weight: normal;
 }
 
@@ -44,7 +43,7 @@ header #logo {
     cursor: pointer;
 }
 
-header #logo span{
+header #logo span {
     text-align: center;
     font-size: 1.7em;
     line-height: 45px;
