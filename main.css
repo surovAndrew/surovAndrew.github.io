@@ -228,9 +228,9 @@ header.fixed #logo {color: #343434}
 
 @media (max-width: 700px) {
     #header {
-        font-size: 20px;
+        height: 15%!important;
+        font-size: 20px!important;
         width: 98%!important;
-        height: 5%!important;
     }
     #about {
         width: 100%;
