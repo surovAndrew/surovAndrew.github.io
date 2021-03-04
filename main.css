@@ -231,4 +231,7 @@ header.fixed #logo {color: #343434}
         margin-right: 0!important;
         margin-left: 10%!important;
     }
+    #header {
+        height: 5%!important;
+    }
 }
