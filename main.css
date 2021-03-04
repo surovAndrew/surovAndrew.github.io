@@ -56,7 +56,6 @@ header #logo span{
     text-align: center;
     font-size: 1em;
     line-height: 40px;
-    margin-bottom: 10px;
 }
 
 #about > a {color: #fff}
@@ -92,8 +91,8 @@ header #logo span{
     }
         
     #about {
-        float: left;
-        width: 100%;
+        float: right;
+        width: 67%;
     }
 }
 
@@ -244,7 +243,7 @@ header.fixed #logo {color: #343434}
         margin-left: 10px!important;
     }
     #contacts center h5 {
-        font-size: 1em!important;
+        font-size: 1.5em!important;
     }
     #about a {
         margin-top: 0!important;
