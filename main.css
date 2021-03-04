@@ -245,4 +245,7 @@ header.fixed #logo {color: #343434}
     #contacts h2 {
         margin-left: 0!important;
     }
+    #contacts center h5 {
+        font-size: 1em!important;
+    }
 }
