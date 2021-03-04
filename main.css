@@ -232,6 +232,9 @@ header.fixed #logo {color: #343434}
         width: 98%!important;
         height: 5%!important;
     }
+    #header #logo {
+        margin-bottom: 20px;
+    }
     #about {
         width: 100%;
         float: left;
