@@ -45,6 +45,7 @@ header #logo {
 }
 
 header #logo span{
+    text-align: center;
     font-size: 1.7em;
     line-height: 45px;
     margin-left: 40px;
@@ -226,7 +227,7 @@ header.fixed #logo {color: #343434}
 
 #contacts h2 {margin-left: 80px;}
 
-@media (max-width: 1400px) {
+@media (max-width: 700px) {
     #header {
         height: 15%!important;
         font-size: 20px!important;
