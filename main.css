@@ -240,4 +240,8 @@ header.fixed #logo {color: #343434}
         width: 100%;
         float: left;
     }
+    #contacts {
+        float: left;
+        width: 100%;
+    }
 }
