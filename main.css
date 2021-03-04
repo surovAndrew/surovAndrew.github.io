@@ -232,6 +232,12 @@ header.fixed #logo {color: #343434}
         margin-left: 10%!important;
     }
     #header {
+        font-size: 20px;
+        width: 98%!important;
         height: 5%!important;
+    }
+    #header a {
+        width: 100%;
+        float: left;
     }
 }
