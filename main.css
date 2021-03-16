@@ -210,7 +210,7 @@ header.fixed #logo {color: #343434}
 }
 
 #contacts {
-    width: 100%;
+    width: 99%;
     float: left;
     padding-bottom: 50px;
     padding-top: 40px;
@@ -236,10 +236,11 @@ header.fixed #logo {color: #343434}
     #contacts {
         margin-right: 0;
         float: left;
-        width: 100%;
+        width: 99%;
     }
     #contacts h2 {
         margin-left: 10px;
+        font-size: 25px;
     }
     #contacts center h5 {
         font-size: 1.5em;
