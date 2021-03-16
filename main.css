@@ -170,7 +170,7 @@ header.fixed #logo {color: #343434}
         width: 80%;
     }
     #main div{
-        width: 89%!important
+        width: 89%!important;
     }
 }
 
@@ -221,6 +221,8 @@ header.fixed #logo {color: #343434}
 
 .Con {
     color: #ebc4da;
+}
+.Con a {
     width: 30%;
 }
 
