@@ -30,7 +30,7 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 99%;
     padding: 10px 0.5% 0px 0.5%;
     background: transparent;
     float: left;
@@ -60,8 +60,6 @@ header #logo span {
 
 #about > a:hover {
     color: #b0b0b0;
-    text-decoration: none;
-    box-shadow: 6 6 10 10 #343434;
 }
 
 #about > a:not(:last-child) {
@@ -87,7 +85,6 @@ header #logo span {
       width: 100%;
       font-size: 1.5em;
     }
-        
     #about {
         float: left;
         width: 100%;
@@ -151,7 +148,7 @@ header.fixed #logo {color: #343434}
 
 #main {
     color: #f6f6f6;
-    width: 80%;
+    width: 100%;
     float: left;
     background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
     background-blend-mode: multiply;
@@ -172,11 +169,14 @@ header.fixed #logo {color: #343434}
         padding: 100px 10%;
         width: 80%;
     }
+    #main div{
+        width: 89%!important
+    }
 }
 
 @media (min-width: 700px) {
     #main div {
-        width: 95%!important;
+        width: 89%!important;
         margin-bottom: 20px;
     }
 }
